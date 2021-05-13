@@ -2,11 +2,9 @@ var tansaltebutton = document.querySelector("#translate-button");
 
 var textInput = document.querySelector("#text-input")
 
-console.log(textInput);
-
 function clickHandler() {
     console.log("clicked");
-    console.log("input", textInput,)
+    console.log("input", textInput.value)
 };
 tansaltebutton.addEventListener("click", clickHandler);
 
