@@ -1,3 +1,22 @@
-
-.textarea {   
+body {
+    align-content: center;
+}
+textarea {
+    display: block;
+    height: 70px;
+    width: 90%;
+    padding: 20px;
+    background-color: #0E2431;
+    color: white;
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
+}
+#translate-button {
+    margin: 8px;
+    border-radius: 5px;
+    padding: 5px;
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
 }
