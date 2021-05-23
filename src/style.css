@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    /* background-image: url(/Images/Background-img.jpg); */
+    background-image: url(/Images/Background-img.jpg);
 }
 textarea {
     height: 70px;
@@ -10,7 +10,7 @@ textarea {
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 12px;
-    background-color: #0E2431;
+    background-color:#0E2431;
     color: white;
 }
 button {
