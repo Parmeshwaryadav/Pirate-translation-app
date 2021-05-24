@@ -45,3 +45,36 @@ h1,h3 {
     margin-right: auto;
     text-align: center;
 }
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 3px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    padding-bottom: 0;
+}
+
+.footer-text {
+    font-size: 20px;
+    margin-top: 1vh;
+}
+
+.footer-icons {
+    padding: 1rem;
+    padding-left: 30px;
+    gap: 50px;
+    padding-bottom: 10px;
+}
+
+.footer .icon-links {
+    font-size: 30px;
+    letter-spacing: 30px;
+    content: absolute;
+}
+.copyright {
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+
+}
