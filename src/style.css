@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@800&display=swap');
-
-body {
+:root{
+    --var-primary-color: #26fff4;
+    --secondry-color: #0E2431;
+}
+*{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Poppins', sans-serif;
-    background-color: chartreuse;
+}
+body {
+    background-image:url('/Images/pexels.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
 }
 textarea {
     height: 4rem;
     width: 70%;
     display: block;
     padding: 1rem;
-    border-radius: 2rem;;
-    background-color:#0E2431;
+    border-radius: 1rem;;
+    background-color: var(--secondry-color);
     color: white;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    box-shadow: #29b5e8;
 }
 button {
+    width: 150px;
     margin: auto;
     display:block;
     border-radius: 24px;
@@ -40,8 +50,8 @@ h1,h4 {
     width: 70%;
     display: block;
     padding: 1rem;
-    border-radius: 2rem;;
-    background-color:#0E2431;
+    border-radius: 1rem;;
+    background-color: var(--secondry-color);
     color: white;
     margin-left: auto;
     margin-right: auto;
