@@ -59,7 +59,7 @@ h4 {
     display: block;
     padding: 1rem;
     border-radius: 1rem;
-    ;
+    word-wrap: break-word;
     background-color: var(--secondry-color);
     color: white;
     margin-left: auto;
