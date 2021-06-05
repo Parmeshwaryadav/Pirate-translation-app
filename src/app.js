@@ -23,5 +23,5 @@ tansaltebutton.addEventListener("click", clickHandler);
 //error messages 
 function errorHandler(error) {
     console.log("Something Went Wrong On Server", error)
-    alert("Something Went Wrong On Server Please try Again !")
+    alert("Something Went Wrong On Server 😥 Please try Again Later !")
 };
