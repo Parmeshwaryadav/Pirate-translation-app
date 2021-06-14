@@ -4,11 +4,11 @@ var output = document.querySelector("#text-output");
 
 //Api from https://funtranslations.com/
 var siteURL = "https://api.funtranslations.com/translate/pirate.json"
-
+//Api Call
 function getTranslationURL(text) {
     return siteURL + "?text=" + text;
 }
-
+//Fetch 
 function clickHandler() {
     var inputText = textInput.value;
     fetch(getTranslationURL(inputText))
